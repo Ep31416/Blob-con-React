@@ -1,0 +1,44 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #0d161f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.App-header h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contenedor-botones {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.btn-verde {
+  background-color: #18a118;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.btn-verde:hover {
+  background-color: #4cae4c;
+}
+
+.texto-resultado {
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+}
