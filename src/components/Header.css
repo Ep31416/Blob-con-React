@@ -1,0 +1,19 @@
+.encabezado {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%; /* Obliga al encabezado a expandirse de lado a lado */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.encabezado h2 {
+  margin: 0 0 5px 0;
+  font-size: 22px;
+}
+
+.encabezado p {
+  margin: 0;
+  font-size: 14px;
+  color: #61dafb;
+}

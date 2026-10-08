@@ -1,18 +1,18 @@
+/* Contenedor principal de la pantalla */
 .App {
-  font-family: Arial, sans-serif;
-  background-color: #0d161f;
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100vh;
-  padding-top: 60px;
+  background-color: #f4f4f9; /* Fondo claro para que resalte el texto negro */
 }
 
-.App-header h1 {
-  color: #ffffff;
-  font-size: 24px;
-  margin-bottom: 30px;
-  text-align: center;
+/* El área central donde están tus botones */
+.App-contenido {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centramos solamente los botones y textos acá adentro */
+  padding-top: 50px;
 }
 
 .contenedor-botones {
@@ -23,7 +23,7 @@
 }
 
 .btn-verde {
-  background-color: #18a118;
+  background-color: #5cb85c;
   color: white;
   border: none;
   padding: 10px 20px;
