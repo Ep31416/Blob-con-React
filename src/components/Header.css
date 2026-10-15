@@ -17,3 +17,20 @@
   font-size: 14px;
   color: #61dafb;
 }
+
+.navegacion {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.navegacion a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+.navegacion a:hover {
+  color: white;
+}
