@@ -1,0 +1,35 @@
+.contenedor-inicio {
+  max-width: 800px; /* Límite de ancho para que no se estire demasiado */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 60px 20px; /* Espacio interno: 60px vertical, 20px horizontal */
+  text-align: center; /* Centra los textos internamente */
+}
+
+.titulo-inicio {
+  color: #282c34;
+  font-size: 32px;
+  margin-bottom: 20px; /* Separación inferior de 20px */
+}
+
+.descripcion-inicio {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px; /* Separación inferior de 40px */
+}
+
+.boton-empezar {
+  display: inline-block; /* Permite darle ancho, alto y márgenes al enlace */
+  background-color: #007bff;
+  color: white;
+  padding: 14px 28px; /* Relleno interno para darle volumen al botón */
+  text-decoration: none;
+  border-radius: 6px; /* Redondea las esquinas 6px */
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.boton-empezar:hover {
+  background-color: #0056b3;
+}

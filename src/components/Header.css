@@ -1,29 +1,30 @@
 .encabezado {
   background-color: #282c34;
   color: white;
-  text-align: center;
-  padding: 15px 0;
-  width: 100%; /* Obliga al encabezado a expandirse de lado a lado */
+  text-align: center; /* Centra el contenido internamente */
+  padding: 15px 0; /* 15px de espacio arriba y abajo, 0 a los lados */
+  width: 100%; /* Ocupa todo el ancho disponible */
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .encabezado h2 {
-  margin: 0 0 5px 0;
+  margin: 0 0 5px 0; /* Quita márgenes salvo el inferior (5px) */
   font-size: 22px;
 }
 
 .encabezado p {
-  margin: 0;
+  margin: 0; /* Elimina todos los márgenes */
   font-size: 14px;
   color: #61dafb;
 }
 
 .navegacion {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  margin-top: 15px; /* Separación superior de 15px */
+  display: flex; /* Alinea los enlaces en fila */
+  justify-content: center; /* Centra la fila de enlaces en el medio */
+  gap: 20px; /* Crea un hueco de 20px entre cada enlace */
 }
+
 .navegacion a {
   color: #61dafb;
   text-decoration: none;
@@ -31,6 +32,7 @@
   font-size: 15px;
   transition: color 0.3s;
 }
+
 .navegacion a:hover {
   color: white;
 }

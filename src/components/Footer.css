@@ -1,9 +1,9 @@
 .pie-pagina {
   background-color: #333;
   color: #aaa;
-  text-align: center;
-  padding: 15px 0;
+  text-align: center; /* Centra el texto */
+  padding: 15px 0; /* 15px de espacio interno arriba y abajo */
   font-size: 13px;
-  margin-top: auto;
-  width: 100%; /* Obliga al pie a expandirse de lado a lado */
+  margin-top: auto; /* Se empuja a sí mismo hacia el fondo de la pantalla */
+  width: 100%; /* Ocupa todo el ancho */
 }

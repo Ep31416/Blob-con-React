@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './BlobPage.css'; // <-- La conexión clave a su propio archivo css
 
 const BlobPage = () => {
   const [miBlob, setMiBlob] = useState(null);
@@ -40,7 +41,7 @@ const BlobPage = () => {
   };
 
   return (
-    <>
+    <div className="contenedor-blob">
       <h1>Ejemplo de uso de Blobs</h1>
       <div className="contenedor-botones">
         <button onClick={handleCrearBlob} className="btn-verde">Crear Blob</button>
@@ -48,7 +49,7 @@ const BlobPage = () => {
         <button onClick={handleSlice} className="btn-verde">Usar Slice</button>
       </div>
       <p className="texto-resultado">{resultado}</p>
-    </>
+    </div>
   );
 };
 

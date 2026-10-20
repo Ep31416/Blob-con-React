@@ -1,0 +1,38 @@
+.contenedor-blob {
+  padding: 40px 20px; /* Espacio interno superior/inferior y lateral */
+  text-align: center; /* Centra el título y los textos */
+}
+
+.contenedor-blob h1 {
+  font-size: 42px; /* Aumenta el tamaño del título principal */
+  margin-bottom: 40px; /* Separación amplia hacia los botones */
+}
+
+.contenedor-botones {
+  display: flex; /* Alinea los botones en fila */
+  gap: 25px; /* Aumenta la distancia entre los botones */
+  margin-bottom: 50px; /* Separa los botones del texto de abajo */
+  justify-content: center; /* Centra la fila de botones */
+}
+
+.btn-verde {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 16px 32px; /* Expande el volumen interno del botón */
+  border-radius: 6px; /* Redondea las esquinas */
+  cursor: pointer;
+  font-size: 18px; /* Agranda la letra del botón */
+  font-weight: bold; /* Hace que el texto del botón sea más visible */
+  transition: background-color 0.3s;
+}
+
+.btn-verde:hover {
+  background-color: #4cae4c;
+}
+
+.texto-resultado {
+  color: #555;
+  font-size: 22px; /* Aumenta el tamaño del texto de respuesta */
+  margin-top: 20px; /* Empuja el texto hacia abajo */
+}

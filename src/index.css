@@ -1,13 +1,10 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0; /* Elimina el borde blanco automático que los navegadores agregan alrededor de la página*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Establece una lista de tipografías modernas; el navegador usará la primera que encuentre instalada */
+  -webkit-font-smoothing: antialiased; /* Suaviza los bordes de las letras en navegadores basados en Chrome y Safari */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza los bordes de las letras específicamente en Firefox */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* Aplica una fuente estilo "máquina de escribir" para los textos que utilicen la etiqueta HTML <code> */
 }

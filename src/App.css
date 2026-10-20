@@ -1,44 +1,15 @@
 /* Contenedor principal de la pantalla */
 .App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #f4f4f9; /* Fondo claro para que resalte el texto negro */
+  display: flex; /* Activa el diseño de cajas flexibles */
+  flex-direction: column; /* Apila los elementos en vertical */
+  min-height: 100vh; /* Ocupa al menos el 100% del alto de la pantalla */
+  background-color: #f4f4f9; 
 }
 
-/* El área central donde están tus botones */
 .App-contenido {
-  flex-grow: 1; 
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centramos solamente los botones y textos acá adentro */
-  padding-top: 50px;
-}
-
-.contenedor-botones {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 30px;
-  justify-content: center;
-}
-
-.btn-verde {
-  background-color: #5cb85c;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: background-color 0.3s;
-}
-
-.btn-verde:hover {
-  background-color: #4cae4c;
-}
-
-.texto-resultado {
-  color: #555;
-  font-weight: bold;
-  text-align: center;
+  flex-grow: 1;  /* Expande el área para empujar el pie de página hacia el fondo */
+  display: flex; 
+  flex-direction: column; /* Apila el contenido en vertical */
+  align-items: center; /* Centra los elementos horizontalmente */
+  padding-top: 50px; /* Espacio interno superior de 50px */
 }

@@ -1,0 +1,24 @@
+.contenedor-contacto {
+  max-width: 800px; /* Límite de ancho general */
+  margin: 0 auto; /* Centra el contenedor de la página */
+  padding: 40px 20px; /* Espaciado interno superior/inferior y lateral */
+  text-align: center; /* Centra los títulos */
+}
+
+.formulario-contacto {
+  display: flex; /* Activa la caja flexible para el formulario */
+  flex-direction: column; /* Apila las cajas de texto en vertical */
+  gap: 15px; /* Distancia de 15px entre campos */
+  max-width: 450px; /* Límite de ancho para que el formulario no quede gigante */
+  margin: 0 auto; /* Centra el formulario en la pantalla */
+  background-color: white;
+  padding: 25px; /* Espacio interno del formulario */
+  border-radius: 8px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.input-form {
+  padding: 12px; /* Altura interna para que sea cómodo escribir */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Esquinas ligeramente redondeadas */
+}
