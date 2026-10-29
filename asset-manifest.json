@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Blob-con-React/static/css/main.616f3eaa.css",
+    "main.js": "/Blob-con-React/static/js/main.94e77675.js",
+    "static/js/453.57af706e.chunk.js": "/Blob-con-React/static/js/453.57af706e.chunk.js",
+    "index.html": "/Blob-con-React/index.html",
+    "main.616f3eaa.css.map": "/Blob-con-React/static/css/main.616f3eaa.css.map",
+    "main.94e77675.js.map": "/Blob-con-React/static/js/main.94e77675.js.map",
+    "453.57af706e.chunk.js.map": "/Blob-con-React/static/js/453.57af706e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.616f3eaa.css",
+    "static/js/main.94e77675.js"
+  ]
+}
